@@ -1,0 +1,31 @@
+NOME: Nicolas Pinto
+NMEC: 132634
+ssh -i "C:\Users\nicol\Downloads\Maquina-Nicolas_key.pem" azureuser@4.211.206.221
+git clone https://github.com/NicolasCP-12/LI2025-Teste03.git
+ls
+cd LI2025-Teste03
+mkdir 132634
+cd A-132634
+touch README.md
+echo "Teste de LI 2025/2026." > README.md
+cd ..
+git add .
+git commit -m "2ª tarefa concluída."
+git push origin main
+Clear-History
+git clone https://github.com/NicolasCP-12/LI2025-Teste03.git
+git add .
+git commit -m "3ª tarefa concluída."
+git push origin main
+git add .
+git commit -m "4ª tarefa"
+git push origin main
+git pull
+cp index.html disciplinas.html
+git add .
+git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+git push origin main
+git pull
+git add .
+git commit -m "5ª tarefa"
+git push origin main 
